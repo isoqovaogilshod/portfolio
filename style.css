@@ -256,6 +256,7 @@ nav {
 
 #about .about-text p {
   font-size: 3.3rem;
+  max-width: 55rem;
   margin-top: 2rem;
 }
 
