@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background: var(--Black, #151515);
   font-family: "Josefin Sans", sans-serif;
@@ -14,6 +15,7 @@ body {
   overflow-x: hidden;
   position: relative;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -23,7 +25,7 @@ header {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -58,8 +60,6 @@ ul li {
   backdrop-filter: blur(2px);
   position: absolute;
   bottom: -70px;
-
-  /* animation: bubble 3s ease-in infinite; */
 }
 
 .bub::before {
@@ -89,6 +89,7 @@ ul li {
     display: none;
   }
 }
+
 @keyframes bubble2 {
   0% {
     opacity: 0;
@@ -169,7 +170,7 @@ nav {
   font-size: 30px;
 }
 .logo img {
-  max-width: 5rem;
+  max-width: 4rem;
 }
 
 .nav-links ul {
@@ -206,28 +207,29 @@ nav {
 #home {
   display: flex;
   color: #dedede;
-  margin-top: 3rem;
-  gap: 2rem;
+  padding-top: 9rem;
+  gap: 10rem;
 }
 
 #home .home-text {
-  max-width: 70rem;
+  max-width: 80rem;
   padding-top: 1rem;
 }
 
 #home .home-text h1 {
-  font-size: 10rem;
-  margin-top: 10rem;
+  font-size: 7rem;
+  margin-top: 5rem;
+  max-width: 80rem;
 }
 
 #home .home-text p {
   margin-top: 2rem;
-  font-size: 2rem;
+  font-size: 3rem;
   max-width: 50rem;
 }
 
 #home .home-img img {
-  max-width: 50rem;
+  max-width: 40rem;
   max-height: 60rem;
   border-top-right-radius: 100px;
   border-bottom-left-radius: 100px;
@@ -255,19 +257,20 @@ nav {
 }
 
 #about .about-text p {
-  font-size: 3.3rem;
+  font-size: 3rem;
   max-width: 55rem;
   margin-top: 2rem;
 }
 
 #service {
-  padding-top: 10rem;
+  padding-top: 15rem;
   padding-bottom: 4rem;
 }
 #service .programming {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15rem;
+  grid-column-gap: 5rem;
+  grid-row-gap: 15rem;
   margin-top: 10rem;
   color: #dedede;
 }
@@ -352,7 +355,7 @@ nav {
 }
 
 #contact {
-  padding-top: 15rem;
+  padding-top: 11rem;
   padding-bottom: 3rem;
 }
 
@@ -420,7 +423,6 @@ nav {
   max-width: 1320px;
   margin: 0 auto;
   padding-top: 3rem;
-  
 }
 
 .right {
@@ -431,4 +433,15 @@ nav {
 .right i {
   color: #dedede;
   font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .container{
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  nav{
+    max-width: 550px;
+  }
 }
