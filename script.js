@@ -20,7 +20,6 @@ const generatesnowFlake = (timeout = 0, init = false) => {
 			animation-delay: -${delay}ms;
 			--fallDuration: ${duration}ms;
 			--fallSlideStrength: ${Math.random()};
-			
 			--size: ${Math.random() * 0.7 + 0.3};
 			--position: ${Math.random() * 120}%;
 			`
@@ -73,7 +72,7 @@ document.onvisibilitychange = (e) => {
 
 ///////////////////////////////////////////////////
 /*--------------------
-Vars
+lets
 --------------------*/
 let progress = 50;
 let startX = 0;
@@ -169,3 +168,12 @@ document.addEventListener("mouseup", handleMouseUp);
 document.addEventListener("touchstart", handleMouseDown);
 document.addEventListener("touchmove", handleMouseMove);
 document.addEventListener("touchend", handleMouseUp);
+////////
+
+// let menu = document.querySelector(".icons .menu");
+// let x = document.querySelector(".icons .x");
+// let icons = document.querySelector(".icons");
+// let hide = document.querySelector(".hide");
+// menu.addEventListener("click", () => {
+//   menu.classList.add("none");
+// });
