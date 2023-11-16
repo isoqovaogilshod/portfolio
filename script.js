@@ -170,10 +170,16 @@ document.addEventListener("touchmove", handleMouseMove);
 document.addEventListener("touchend", handleMouseUp);
 ////////
 
-// let menu = document.querySelector(".icons .menu");
-// let x = document.querySelector(".icons .x");
-// let icons = document.querySelector(".icons");
-// let hide = document.querySelector(".hide");
-// menu.addEventListener("click", () => {
-//   menu.classList.add("none");
-// });
+let menu = document.querySelector(".icons .menu");
+let x = document.querySelector(".icons .x");
+let icons = document.querySelector(".icons");
+let hide = document.querySelector(".hide");
+menu.addEventListener("click", () => {
+  menu.style.display = "none";
+  hide.style.display = "inline-block";
+});
+
+hide.addEventListener("click", () => {
+  menu.style.display = "inline-block";
+  hide.style.display = "none";
+});
