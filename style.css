@@ -448,6 +448,7 @@ nav {
 .project-carousel {
   height: 780px;
   margin: 0 auto;
+  width: 100%;
 }
 /* ------------------------------ */
 #contact {
@@ -608,8 +609,9 @@ nav {
     margin-top: 5rem;
   }
 
-  .project-carousel{
+  .project-carousel {
     margin-top: 3rem;
+    width: 100%;
   }
   .footer-top .contact-left h2 {
     font-size: 5rem;
@@ -660,8 +662,22 @@ nav {
     width: 30rem;
   }
 
+  .project-carousel {
+    margin: 0 auto;
+    margin-top: -5rem;
+    width: 100%;
+  }
+
+}
+
+@media screen  and (min-width:1110px){
+  .container{
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
   .project-carousel{
-    margin-top: 10rem ;
+    margin-top: 15rem;
   }
 }
 
@@ -845,9 +861,10 @@ nav {
   .project-carousel {
     display: flex;
     justify-content: center;
-    height: 800px;
+    height: 830px;
+    width: 100%;
     margin: 0 auto;
-    margin-top: -30rem;
+    margin-top: -20rem;
   }
 
   .footer-top .contact-left h2 {
@@ -963,11 +980,10 @@ nav {
   }
 
   .project-carousel {
-    overflow: hidden;
     display: flex;
     justify-content: center;
     height: 700px;
-    width: 500px;
+    width: 100%;
     margin: 0 auto;
     margin-top: -6rem;
   }
@@ -988,11 +1004,10 @@ nav {
   }
 
   .project-carousel {
-    overflow: hidden;
     display: flex;
     justify-content: center;
     height: 536px;
-    width: 400px;
+    width: 100%;
     margin: 0 auto;
     margin-top: -11rem;
   }
@@ -1030,7 +1045,7 @@ nav {
 
   .project-carousel {
     height: 536px;
-    width: 370px;
+    width: 100%;
     margin: 0 auto;
     margin-top: -11rem;
   }
@@ -1078,7 +1093,7 @@ nav {
     display: flex;
     justify-content: center;
     height: 536px;
-    width: 350px;
+    width: 100%;
     margin: 0 auto;
     margin-top: -11rem;
   }
@@ -1125,7 +1140,7 @@ nav {
     display: flex;
     justify-content: center;
     height: 536px;
-    width: 280px;
+    width: 100%;
     margin: 0 auto;
     margin-top: -11rem;
   }
@@ -1152,7 +1167,7 @@ nav {
     display: flex;
     justify-content: center;
     height: 536px;
-    width: 250px;
+    width: 100%;
     margin: 0 auto;
     margin-top: -11rem;
   }
@@ -1224,7 +1239,7 @@ nav {
     display: flex;
     justify-content: center;
     height: 536px;
-    width: 185px;
+    width: 100%;
     margin: 0 auto;
     margin-top: -11rem;
   }
