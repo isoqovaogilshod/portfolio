@@ -354,7 +354,7 @@ nav {
 }
 
 .title a:hover {
-  color:rgb(34, 87, 186);
+  color: rgb(34, 87, 186);
   filter: brightness(120%);
 }
 .carousel-box img {
@@ -445,6 +445,10 @@ nav {
   transition-duration: 0.7s;
 }
 
+.project-carousel {
+  height: 780px;
+  margin: 0 auto;
+}
 /* ------------------------------ */
 #contact {
   padding-top: 11rem;
@@ -604,6 +608,9 @@ nav {
     margin-top: 5rem;
   }
 
+  .project-carousel{
+    margin-top: 3rem;
+  }
   .footer-top .contact-left h2 {
     font-size: 5rem;
   }
@@ -651,6 +658,10 @@ nav {
   #about .about-text p {
     font-size: 2.3rem;
     width: 30rem;
+  }
+
+  .project-carousel{
+    margin-top: 10rem ;
   }
 }
 
@@ -831,6 +842,13 @@ nav {
   .carousel {
     margin-top: 2rem;
   }
+  .project-carousel {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: -30rem;
+  }
 
   .footer-top .contact-left h2 {
     font-size: 3rem;
@@ -944,6 +962,15 @@ nav {
     transform: translateY(-4rem);
   }
 
+  .project-carousel {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: -6rem;
+  }
   .carousel {
     margin-top: -5rem;
   }
@@ -960,6 +987,15 @@ nav {
     margin: 0 auto;
   }
 
+  .project-carousel {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 536px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: -11rem;
+  }
   .footer-top {
     flex-direction: column;
   }
@@ -990,6 +1026,13 @@ nav {
 
   #service .programming .card p {
     font-size: 1.6rem;
+  }
+
+  .project-carousel {
+    height: 536px;
+    width: 370px;
+    margin: 0 auto;
+    margin-top: -11rem;
   }
 
   .title-icons {
@@ -1031,6 +1074,15 @@ nav {
     grid-column-gap: 5rem;
   }
 
+  .project-carousel {
+    display: flex;
+    justify-content: center;
+    height: 536px;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: -11rem;
+  }
+
   .title-icons {
     transform: translateY(-12rem);
   }
@@ -1069,6 +1121,15 @@ nav {
     max-width: 20rem;
   }
 
+  .project-carousel {
+    display: flex;
+    justify-content: center;
+    height: 536px;
+    width: 280px;
+    margin: 0 auto;
+    margin-top: -11rem;
+  }
+
   .footer-top .contact-part textarea {
     padding: 1rem 3rem 8rem 2rem;
   }
@@ -1085,6 +1146,15 @@ nav {
 
   #about .about-text p {
     width: 20rem;
+  }
+
+  .project-carousel {
+    display: flex;
+    justify-content: center;
+    height: 536px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: -11rem;
   }
 
   .footer-top .contact-part textarea {
@@ -1128,6 +1198,15 @@ nav {
     width: 15rem;
     padding-bottom: 10rem;
   }
+
+  .project-carousel {
+    display: flex;
+    justify-content: center;
+    height: 536px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: -11rem;
+  }
 }
 
 @media (max-width: 390px) {
@@ -1139,5 +1218,14 @@ nav {
   nav {
     max-width: 250px;
     margin-left: -4rem;
+  }
+
+  .project-carousel {
+    display: flex;
+    justify-content: center;
+    height: 536px;
+    width: 185px;
+    margin: 0 auto;
+    margin-top: -11rem;
   }
 }
