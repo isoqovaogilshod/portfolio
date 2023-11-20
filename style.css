@@ -667,17 +667,6 @@ nav {
 }
 
 
-@media screen and (min-width:1110px) {
-  .container{
-    max-width: 750px;
-    margin: 0 auto;
-  }
-
-  .project-carousel{
-    margin-top: 15rem;
-    height: 750px;
-  }
-}
 @media (max-width: 1050px) {
   .container {
     max-width: 700px;
